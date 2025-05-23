@@ -22,3 +22,15 @@ function checkMessage(value) {
 
 checkMessage(`your message here`)
 ```
+
+JSON ARRAY RETURN
+```json
+[
+  {
+    "text": "This is a bad <mark>w0rd</mark>.",
+    "word": "(w|b)ord(?s|ed|ing)",
+    "filter": "{'name':'Experimental','severity':'Low','message':'This word has been limited to experimental accounts','bypass':'Username'}",
+    "source": "Message"
+  }
+]
+```
