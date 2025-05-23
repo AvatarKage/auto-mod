@@ -1,5 +1,5 @@
 {
-  "name": "automod",
+  "name": "@avatarkage/auto-mod",
   "version": "0.1.0",
   "description": "A new and nearly unbreakable auto-moderation module.",
   "main": "index.js",
