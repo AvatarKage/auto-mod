@@ -7,7 +7,7 @@ I am a professional content moderator and I have created this to help people hav
 If you have any feedback or bug reports, please reachout on my [Discord server](https://avatarka.ge/discord).
 
 ```js
-import autoMod from '@avatarkage/auto-mod';
+import autoMod from '@avatarkage1052/auto-mod';
 
 function checkMessage(value) {
     const blocked = autoMod(value)
