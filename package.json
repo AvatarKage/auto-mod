@@ -1,6 +1,6 @@
 {
   "name": "@avatarkage1052/automod",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A new and nearly unbreakable auto-moderation module.",
   "main": "index.js",
   "repository": {
