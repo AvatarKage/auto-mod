@@ -1,4 +1,4 @@
-export default function autoMod(value) {
+function autoMod(value) {
     // List of filters with pattern-based wildcards and severity level
     const filters = [
         {
@@ -294,5 +294,21 @@ export default function autoMod(value) {
 
     } else {
         return null;
+    }
+}
+
+// Export for CommonJS
+if (typeof module !== 'undefined' && typeof module.exports !== 'undefined') {
+    module.exports = autoMod;
+}
+
+// Export for ES Modules
+if (typeof exports === 'undefined' || typeof exports !== 'object') {
+    if (typeof globalThis !== 'undefined') {
+        globalThis.autoMod = autoMod;
+    } else if (typeof window !== 'undefined') {
+        window.autoMod = autoMod;
+    } else if (typeof self !== 'undefined') {
+        self.autoMod = autoMod;
     }
 }
