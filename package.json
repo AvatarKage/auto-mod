@@ -1,8 +1,9 @@
 {
-  "name": "@avatarkage1052/auto-mod",
+  "name": "@avatarkage1052/automod",
   "version": "0.1.0",
   "description": "A new and nearly unbreakable auto-moderation module.",
   "main": "index.js",
+  "types": "index.d.ts",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/AvatarKage/automod.git"
