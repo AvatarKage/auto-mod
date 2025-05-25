@@ -4,7 +4,7 @@ function autoMod(value) {
         {
             name: "Discriminatory",
             severity: "High",
-            words: ["*(🥷|🆖)*", "(?g)ga", "*n(?i|e)g(a|g|h)(?h|r|e|a)(?a)(?rs|s)*", "*f(?a)ag*", "*retard*",
+            words: ["*(🥷|🆖)*", "(?g)ga", "*n(?i|e)g(?a|g|h)(?h|r|e|a)(?a)(?rs|s)*", "*f(?a)ag*", "*retard*",
             "coon(?s)", "*kike*", "yid(?s)", "*chink*", "ching(?s)", "*gook*", "*slopehead*", "jap(?s)",
             "*china(? )(wo)m(a|e)n*", "*coolie*", "*sambo*", "*tar(? )baby*", "*jemima(?s)*", "*mamm(?y|ies|s)*",
             "*pick(? )aninn(?y|ies|s)*", "*gay(? )lord(?s)*", "*dyke*", "*she(? )male*", "*trann(?y|ies|s)*",
